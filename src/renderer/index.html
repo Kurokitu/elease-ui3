@@ -5,8 +5,10 @@
   <meta charset="UTF-8" />
   <title>Electron</title>
   <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <!-- <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'" /> -->
   <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'" />
+    content="script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.fn.netease.com 163.com http://localhost:2000 https://s6.music.126.net http://localhost https://wr.da.netease.com https://acstatic-dun.126.net https://ac.dun.163yun.com https://nstool.netease.com 163.com https://*.163.com https://cstaticdun.126.net https://cstatic.dun.163yun.com orpheus:; connect-src orpheus://orpheus/style/res/ orpheus://localmusic/lyric orpheus://orpheus/storage/customrequest https://music-pylon.hz.netease.com orpheus://cache orpheus://orpheus/wasm/resource orpheus://orpheus/wasm/SDK orpheus://orpheus/customskin http: https: ws: wss:;">
 
   <!-- <style>
     body {
