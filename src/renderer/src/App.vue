@@ -23,5 +23,6 @@
   height: 100vh;
   position: absolute;
   overflow: hidden;
+  background: transparent;
 }
 </style>

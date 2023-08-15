@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: arial, 微软雅黑, "Segoe UI Emoji", "Segoe UI Symbol", sans-serif, simsun, "Mongolian Baiti";
-  font-size: 12px;
-}
-
-.light {
+html {
   --colorPrimary1: rgba(255, 58, 58, 1);
   --colorPrimary2: rgba(255, 58, 58, 0.9);
   --colorPrimary3: rgba(255, 58, 58, 0.8);
@@ -87,4 +82,12 @@ body {
   --colorMask3: rgba(0, 0, 0, 0.25);
   --colorMask5: rgba(0, 0, 0, 0);
   --colorMask4: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: arial, 微软雅黑, "Segoe UI Emoji", "Segoe UI Symbol", sans-serif, simsun, "Mongolian Baiti";
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--colorBlack3);
+  background: var(--colorBackground);
 }
